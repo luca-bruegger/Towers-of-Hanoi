@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+<h1>Türme von Hanoi</h1>
+<div class="tower-wrapper">
+    <div class="tower">
+        <div id="A" class="stack">
+            <div id="ring-1" class="ring-5"></div>
+            <div id="ring-2" class="ring-4"></div>
+            <div id="ring-3" class="ring-3"></div>
+            <div id="ring-4" class="ring-2"></div>
+            <div id="ring-5" class="ring-1"></div>
+
+            <div class="base"></div>
+            <span>Turm A</span>
+        </div>
+        <div id="B" class="stack">
+            <div class="base"></div>
+            <span>Turm B</span>
+        </div>
+        <div id="C" class="stack">
+            <div class="base"></div>
+            <span>Turm C</span>
+        </div>
+    </div>
+    <span>Aktuelles Ziel: <span id="target"></span></span>
+    <button id="button" class="footer" disabled="true">
+        <span id="button-title">Starten</span>
+    </button>
+</div>
+</body>
+</html>
